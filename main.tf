@@ -3,10 +3,6 @@ provider "aws" {
     region = "ap-south-1"
   
 }
-#CIDR_Value
-variable "cidr" {
-    default = "10.0.0.0/16"  
-}
 
 #Key_Pair_to_connect_with_EC2Server
 
